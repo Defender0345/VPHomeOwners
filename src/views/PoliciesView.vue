@@ -1,0 +1,153 @@
+<!-- eslint-disable prettier/prettier -->
+<template>
+   <div>
+      <section>
+         <div v-if="this.pdf" class="pdf-container">
+            <iframe :src="pdf" type="application/pdf" width="80%"> </iframe>
+            <p>
+               Your web browser doesn't have a PDF plugin. Instead you can click
+               here to download
+               <a :href="pdf"> Beleid/Policy {{ id }} (AFR/ENG) </a>as a PDF
+               file.
+            </p>
+         </div>
+         <div v-else class="construction">
+            <h2>This Page is currently under development</h2>
+         </div>
+      </section>
+   </div>
+</template>
+
+<!-- eslint-disable prettier/prettier -->
+<script>
+export default {
+   props: ['id'],
+   data() {
+      return {
+         pdf: null,
+      };
+   },
+   methods: {
+      getData() {
+         var that = this;
+         switch (this.id) {
+            case '1':
+               that.pdf = '../pdf/Beleid/Beleid1BedryfsmodelOperatingModel.pdf';
+               break;
+            case '2':
+               that.pdf = '../pdf/Beleid/Beleid2ConductRules.pdf';
+               break;
+            case '3':
+               that.pdf = '../pdf/Beleid/Beleid3Reels-Rules.pdf';
+               break;
+            case '4':
+               that.pdf =
+                  '../pdf/Beleid/Beleid4InfrastruktuurInfrastructure.pdf';
+               break;
+            case '5':
+               that.pdf =
+                  '../pdf/Beleid/Beleid5RisikoBestuurRiskManagement.pdf';
+               break;
+            case '6':
+               that.pdf = '../pdf/Beleid/Beleid6Elektries Electrical.pdf';
+               break;
+            case '7':
+               that.pdf = '../pdf/Beleid/Beleid7SkaduAfdak-ShadePort.pdf';
+               break;
+            case '8':
+               that.pdf = '../pdf/Beleid/Beleid8HeiningsFences.pdf';
+               break;
+            case '9':
+               that.pdf = '../pdf/Beleid/Beleid9WendyhuisWendyHouse.pdf';
+               break;
+            // case '10':
+            //   that.pdf = '../pdf/Beleid/#.pdf';
+            //   break;
+            case '11':
+               that.pdf = '../pdf/Beleid/Beleid11SaalHall.pdf';
+               break;
+            case '12':
+               that.pdf =
+                  '../pdf/Beleid/Beleid12_1Parkeringofstoorvankaravanegrootsleepwaensenbote.pdf';
+               break;
+            case '13':
+               that.pdf = '../pdf/Beleid/Beleid13Boorgate-Wellpoints.pdf';
+               break;
+            case '14':
+               that.pdf =
+                  '../pdf/Beleid/Beleid14ToegangsBeheerAccessControle.pdf';
+               break;
+            case '15':
+               that.pdf = '../pdf/Beleid/Beleid15Boetes-Fines.pdf';
+               break;
+            // case '16':
+            //   that.pdf = '../pdf/Beleid/#.pdf';
+            //   break;
+            case '17':
+               that.pdf =
+                  '../pdf/Beleid/Beleid17.1VerhuringenverkoopvanEenhede.pdf';
+               break;
+         }
+      },
+   },
+   mounted() {
+      this.getData();
+   },
+};
+</script>
+
+<!-- eslint-disable prettier/prettier -->
+<style lang="scss" scoped>
+div {
+   section {
+      .pdf-container {
+         display: flex;
+         text-align: center;
+         align-items: center;
+         justify-content: center;
+         height: 90vh;
+         iframe {
+            width: 80%;
+            height: 80%;
+         }
+
+         p {
+            display: none;
+         }
+      }
+      .construction {
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         height: 100vh;
+         h2 {
+            font-size: 2em;
+            font-weight: bold;
+         }
+      }
+   }
+}
+
+@media only screen and (max-width: 1080px) {
+   div {
+      section {
+         .pdf-container {
+            iframe {
+               display: none;
+            }
+            p {
+               display: block;
+               color: black;
+               font-size: 1em;
+               padding: 0;
+               a {
+                  cursor: pointer;
+                  text-decoration: underline;
+                  color: blue;
+               }
+            }
+         }
+      }
+   }
+}
+</style>
