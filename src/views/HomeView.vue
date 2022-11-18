@@ -60,7 +60,7 @@
                <br />
                (Sien asb "Conduct Rules" / Please see "Conduct Rules")</a
             >
-            <a href="/policies/11">No 11.0: Huur van saal - Hiring of hall</a>
+            <a href="/policies/11">No 11.1: Huur van saal - Hiring of hall</a>
             <a href="/policies/12"
                >No 12.1: Parkeer of stoor van karavane en groot sleepwaens -
                Parking or storage of caravans and large trailers</a
