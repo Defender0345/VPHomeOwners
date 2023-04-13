@@ -1,4 +1,5 @@
 <!-- eslint-disable prettier/prettier -->
+<!-- eslint-disable prettier/prettier -->
 <template>
   <section>
     <button class="btn" @click="switchPdf">CLICK HERE FOR {{ lang }}</button>
@@ -15,6 +16,13 @@
   </section>
   <section class="pdf-history" style="text-align: center">
     <h2>2022</h2>
+    <p>
+      Download
+      <a href="../pdf/NuusBrief/VPAJV2022NOTULE.pdf"
+        >VP AJV 2022 NOTULE - Dec 2022</a
+      >
+      as a PDF file.
+    </p>
     <p>
       Download
       <a href="../pdf/NuusBrief/Nuusbrief3VPHEVOkt2022AFR.pdf"
@@ -123,8 +131,8 @@
     </p>
   </section>
 </template>
-
 <!-- eslint-disable prettier/prettier -->
+
 <script>
 export default {
   name: 'NewsView',
@@ -151,7 +159,6 @@ export default {
   },
 };
 </script>
-
 <!-- eslint-disable prettier/prettier -->
 <style lang="scss" scoped>
 section {
