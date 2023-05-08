@@ -18,7 +18,7 @@
           <router-link class="link" to="/annexures">Annexures</router-link>
         </li>
         <li>
-          <a href="/#policies" class="link">Policies</a>
+          <a href="/#policies" class="link">Policies / Rules</a>
         </li>
         <li><router-link class="link" to="/news">News Letters</router-link></li>
         <li><a href="/#contact" class="link">Contact</a></li>
@@ -60,7 +60,7 @@
           </li>
           <li>
             <a href="/#policies" class="link" @click="toggleMobileNav"
-              >Policies</a
+              >Policies / Rules</a
             >
           </li>
           <li>
@@ -81,6 +81,7 @@
 
 <script>
 export default {
+  // eslint-disable-next-line vue/multi-word-component-names
   name: 'Navbar',
   data() {
     return {
