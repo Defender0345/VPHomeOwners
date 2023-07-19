@@ -15,7 +15,7 @@
     </div>
   </section>
   <section class="pdf-history" style="text-align: center">
-    <h2>2022</h2>
+    <h2>2023</h2>
     <p>
       Download
       <a href="../pdf/NuusBrief/Nuusbrief1VPHEVFeb2023.pdf"
@@ -30,6 +30,7 @@
       >
       as a PDF file.
     </p>
+    <h2>2022</h2>
     <p>
       Download
       <a href="../pdf/NuusBrief/VPAJV2022NOTULE.pdf"
