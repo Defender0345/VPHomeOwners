@@ -15,6 +15,19 @@
     </div>
   </section>
   <section class="pdf-history" style="text-align: center">
+    <h2>AJV/AGM</h2>
+    <p>
+      Download
+      <a href="../pdf/NuusBrief/VPAJV2022NOTULE.pdf"
+        >VP AJV 2022 NOTULE (AFR)</a
+      >
+      as a PDF file.
+    </p>
+    <p>
+      Download
+      <a href="../pdf/NuusBrief/VPAJV2021.pdf">VP AJV 2021 NOTULE (AFR)</a>
+      as a PDF file.
+    </p>
     <h2>2023</h2>
     <p>
       Download
@@ -31,13 +44,6 @@
       as a PDF file.
     </p>
     <h2>2022</h2>
-    <p>
-      Download
-      <a href="../pdf/NuusBrief/VPAJV2022NOTULE.pdf"
-        >VP AJV 2022 NOTULE - Dec 2022</a
-      >
-      as a PDF file.
-    </p>
     <p>
       Download
       <a href="../pdf/NuusBrief/Nuusbrief3VPHEVOkt2022AFR.pdf"
@@ -97,11 +103,6 @@
       as a PDF file.
     </p>
     <h2>2021</h2>
-    <p>
-      Download
-      <a href="../pdf/VPAJV2021.pdf">VP AJV 2021 (AFR)</a>
-      as a PDF file.
-    </p>
     <p>
       Download
       <a href="../pdf/NuusBrief/Newsletter4SeptVPHOA2021.pdf"

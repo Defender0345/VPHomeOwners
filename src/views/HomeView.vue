@@ -43,8 +43,8 @@
     <section id="policies" class="policies">
       <h1><u>Our Policies</u></h1>
       <div class="wrapper">
-        <a href="/policies/1">No 1.0: Bedryfs model - Operating model</a>
-        <a href="/policies/2">No 2.0: Conduct Rules</a>
+        <a href="/policies/1">No 1.1: Bedryfs model - Operating model</a>
+        <a href="/policies/2">No 2.1: Conduct Rules</a>
         <a href="/policies/3">No 3.0: Reëls - Rules</a>
         <a href="/policies/4">No 4.0: Infrastruktuur - Infrastructure</a>
         <a href="/policies/5">No 5.0: Risiko Bestuur - Risk Management</a>
