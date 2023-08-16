@@ -3,6 +3,7 @@
 <template>
   <section>
     <button class="btn" @click="switchPdf">CLICK HERE FOR {{ lang }}</button>
+    <h2>LATEST DOC BELOW / NUUTSTE DOK ONDER</h2>
     <div class="pdf-container">
       <iframe :src="pdf" type="application/pdf" width="80%"></iframe>
       <p>
@@ -25,7 +26,16 @@
     </p>
     <p>
       Download
-      <a href="../pdf/NuusBrief/VPAJV2021.pdf">VP AJV 2021 NOTULE (AFR)</a>
+      <a href="../pdf/NuusBrief/VPAJV2021NOTULE.pdf"
+        >VP AJV 2021 NOTULE (AFR)</a
+      >
+      as a PDF file.
+    </p>
+    <p>
+      Download
+      <a href="../pdf/NuusBrief/VPAJV2020NOTULE.pdf"
+        >VP AJV 2020 NOTULE (AFR)</a
+      >
       as a PDF file.
     </p>
     <h2>2023</h2>
@@ -186,6 +196,7 @@ section {
     cursor: pointer;
     text-align: center;
     margin-top: 150px;
+    margin-bottom: 50px;
     width: 250px;
     max-width: 300px;
     height: 50px;
@@ -224,8 +235,15 @@ section {
 
 @media only screen and (max-width: 1080px) {
   section {
+    h2 {
+      width: 80%;
+      text-align: center;
+    }
+    .btn {
+      margin-top: 100px;
+    }
     .pdf-container {
-      height: 50vh;
+      height: 30vh;
       iframe {
         display: none;
       }
@@ -234,6 +252,7 @@ section {
         color: black;
         font-size: 1em;
         padding: 0;
+        width: 80%;
         a {
           cursor: pointer;
           text-decoration: underline;

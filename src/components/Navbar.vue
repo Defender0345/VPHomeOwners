@@ -2,7 +2,9 @@
   <header :class="{ 'scrolled-nav': scrolledNav }">
     <nav>
       <div class="branding">
-        <img src="../assets/Images/VPLogo.png" alt="Voortrekker Park Logo" />
+        <a href="/">
+          <img src="../assets/Images/VPLogo.png" alt="Voortrekker Park Logo" />
+        </a>
       </div>
       <ul v-show="!mobile" class="navigation">
         <li><router-link class="link" to="/">Home</router-link></li>
@@ -18,9 +20,13 @@
           <router-link class="link" to="/annexures">Annexures</router-link>
         </li>
         <li>
-          <a href="/#policies" class="link">Policies / Rules</a>
+          <a href="/#policies" class="link">Policies/Rules</a>
         </li>
-        <li><router-link class="link" to="/news">News Letters</router-link></li>
+        <li>
+          <router-link class="link" to="/news"
+            >News Letters/AJV-AGM</router-link
+          >
+        </li>
         <li><a href="/#contact" class="link">Contact</a></li>
       </ul>
       <div class="icon">
@@ -60,12 +66,12 @@
           </li>
           <li>
             <a href="/#policies" class="link" @click="toggleMobileNav"
-              >Policies / Rules</a
+              >Policies/Rules</a
             >
           </li>
           <li>
             <router-link class="link" to="/news" @click="toggleMobileNav"
-              >News Letters</router-link
+              >News Letters/AJV-AGM</router-link
             >
           </li>
           <li>
@@ -81,7 +87,6 @@
 
 <script>
 export default {
-  // eslint-disable-next-line vue/multi-word-component-names
   name: 'Navbar',
   data() {
     return {
@@ -126,6 +131,7 @@ export default {
 };
 </script>
 
+<!-- eslint-disable prettier/prettier -->
 <style lang="scss" scoped>
 @import '@/assets/base.css';
 
