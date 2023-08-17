@@ -45,7 +45,7 @@
       <div class="wrapper">
         <a href="/policies/1">No 1: Bedryfs model - Operating model v1.1</a>
         <a href="/policies/2">No 2: Conduct Rules - Gedrags Reels v2.0</a>
-        <a href="/policies/3">No 3: Reëls - Rules v2.0</a>
+        <a href="/policies/3">No 3: Verkorte Reëls - Abbreviated Rules v2.0</a>
         <a href="/policies/4">No 4: Infrastruktuur - Infrastructure v1.0</a>
         <a href="/policies/5">No 5: Risiko Bestuur - Risk Management v1.0</a>
         <a href="/policies/6">No 6: Elektries - Electrical v1.0</a>

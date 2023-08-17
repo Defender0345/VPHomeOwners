@@ -43,7 +43,7 @@ export default {
     return {
       pdf: null,
       lang: 'AFR',
-      pdf2: '../pdf/Beleid/Beleid2ConductRules.pdf',
+      pdf2: '../pdf/Beleid/Beleid2ConductRules2.pdf',
     };
   },
   methods: {
@@ -51,13 +51,13 @@ export default {
       var that = this;
       switch (this.id) {
         case '1':
-          that.pdf = '../pdf/Beleid/Beleid1BedryfsmodelOperatingModel.pdf';
+          that.pdf = '../pdf/Beleid/Beleid1BedryfsmodelOperatingModel1.pdf';
           break;
         case '2':
-          //  that.pdf = '../pdf/Beleid/Beleid2ConductRules.pdf';
+          //  that.pdf = '../pdf/Beleid/Beleid2ConductRules2.pdf';
           break;
         case '3':
-          that.pdf = '../pdf/Beleid/Beleid3Reels-Rules.pdf';
+          that.pdf = '../pdf/Beleid/Beleid3Reels-Rules1.pdf';
           break;
         case '4':
           that.pdf = '../pdf/Beleid/Beleid4InfrastruktuurInfrastructure.pdf';
@@ -81,38 +81,39 @@ export default {
         //   that.pdf = '../pdf/Beleid/#.pdf';
         //   break;
         case '11':
-          that.pdf = '../pdf/Beleid/Beleid11SaalHall.pdf';
+          that.pdf = '../pdf/Beleid/Beleid11SaalHall1.pdf';
           break;
         case '12':
           that.pdf =
-            '../pdf/Beleid/Beleid12_1Parkeringofstoorvankaravanegrootsleepwaensenbote.pdf';
+            '../pdf/Beleid/Beleid12_1Parkeringofstoorvankaravanegrootsleepwaensenbote1.pdf';
           break;
         case '13':
           that.pdf = '../pdf/Beleid/Beleid13Boorgate-Wellpoints.pdf';
           break;
         case '14':
-          that.pdf = '../pdf/Beleid/Beleid14ToegangsBeheerAccessControle.pdf';
+          that.pdf = '../pdf/Beleid/Beleid14ToegangsBeheerAccessControle1.pdf';
           break;
         case '15':
-          that.pdf = '../pdf/Beleid/Beleid15Boetes-Fines.pdf';
+          that.pdf = '../pdf/Beleid/Beleid15Boetes-Fines1.pdf';
           break;
         // case '16':
         //   that.pdf = '../pdf/Beleid/#.pdf';
         //   break;
         case '17':
-          that.pdf = '../pdf/Beleid/Beleid17.1VerhuringenverkoopvanEenhede.pdf';
+          that.pdf =
+            '../pdf/Beleid/Beleid17.1VerhuringenverkoopvanEenhede1.pdf';
           break;
       }
     },
     switchPdf() {
       var that = this;
       switch (this.pdf2) {
-        case '../pdf/Beleid/Beleid2ConductRules.pdf':
-          that.pdf2 = '../pdf/Beleid/Beleid2Gedragsreels.pdf';
+        case '../pdf/Beleid/Beleid2ConductRules2.pdf':
+          that.pdf2 = '../pdf/Beleid/Beleid2Gedragsreels2.pdf';
           that.lang = 'ENG';
           break;
-        case '../pdf/Beleid/Beleid2Gedragsreels.pdf':
-          that.pdf2 = '../pdf/Beleid/Beleid2ConductRules.pdf';
+        case '../pdf/Beleid/Beleid2Gedragsreels2.pdf':
+          that.pdf2 = '../pdf/Beleid/Beleid2ConductRules2.pdf';
           that.lang = 'AFR';
           break;
       }
