@@ -10,7 +10,7 @@
         Your web browser doesn't have a PDF plugin. Instead you can click here
         to download
         <a :href="pdf">
-          News Letter 2 Jul 2023 ({{ lang === 'ENG' ? 'AFR' : 'ENG' }}) </a
+          News Letter 3 Oct 2023 ({{ lang === 'ENG' ? 'AFR' : 'ENG' }}) </a
         >as a PDF file.
       </p>
     </div>
@@ -39,6 +39,20 @@
       as a PDF file.
     </p>
     <h2>2023</h2>
+    <p>
+      Download
+      <a href="../pdf/NuusBrief/Nuusbrief2VPHEVJul2023AFR.pdf"
+        >Nuus Brief 2 (AFR) - Jul 2023</a
+      >
+      as a PDF file.
+    </p>
+    <p>
+      Download
+      <a href="../pdf/NuusBrief/Newsletter2VPHOAJul2023ENG.pdf"
+        >News Letter 2 (ENG) - Jul 2023</a
+      >
+      as a PDF file.
+    </p>
     <p>
       Download
       <a href="../pdf/NuusBrief/Nuusbrief1VPHEVFeb2023.pdf"
@@ -165,19 +179,19 @@ export default {
   data() {
     return {
       lang: 'AFR',
-      pdf: '../pdf/NuusBrief/Newsletter2VPHOAJul2023ENG.pdf',
+      pdf: '../pdf/NuusBrief/Newsletter3VPHOAOct2023ENG.pdf',
     };
   },
   methods: {
     switchPdf() {
       var that = this;
       switch (this.pdf) {
-        case '../pdf/NuusBrief/Newsletter2VPHOAJul2023ENG.pdf':
-          that.pdf = '../pdf/NuusBrief/Nuusbrief2VPHEVJul2023AFR.pdf';
+        case '../pdf/NuusBrief/Newsletter3VPHOAOct2023ENG.pdf':
+          that.pdf = '../pdf/NuusBrief/Nuusbrief3VPHEVOkt2023AFR.pdf';
           that.lang = 'ENG';
           break;
-        case '../pdf/NuusBrief/Nuusbrief2VPHEVJul2023AFR.pdf':
-          that.pdf = '../pdf/NuusBrief/Newsletter2VPHOAJul2023ENG.pdf';
+        case '../pdf/NuusBrief/Nuusbrief3VPHEVOkt2023AFR.pdf':
+          that.pdf = '../pdf/NuusBrief/Newsletter3VPHOAOct2023ENG.pdf';
           that.lang = 'AFR';
           break;
       }
