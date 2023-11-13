@@ -10,15 +10,17 @@
         <li><router-link class="link" to="/">Home</router-link></li>
         <li>
           <router-link class="link" to="/constitution"
-            >Constitution</router-link
+            >Constitution/Grondwet</router-link
           >
         </li>
         <li>
-          <router-link class="link" to="/coctrental">CoCT Rental</router-link>
+          <router-link class="link" to="/coctrental"
+            >CoCT Rental/Huur</router-link
+          >
         </li>
-        <li>
+        <!-- <li>
           <router-link class="link" to="/annexures">Annexures</router-link>
-        </li>
+        </li> -->
         <li>
           <a href="/#policies" class="link">Policies/Rules</a>
         </li>
@@ -51,19 +53,19 @@
               class="link"
               to="/constitution"
               @click="toggleMobileNav"
-              >Constitution</router-link
+              >Constitution/Grondwet</router-link
             >
           </li>
           <li>
             <router-link class="link" to="/coctrental" @click="toggleMobileNav"
-              >CoCT Rental</router-link
+              >CoCT Rental/Huur</router-link
             >
           </li>
-          <li>
+          <!-- <li>
             <router-link class="link" to="/annexures" @click="toggleMobileNav"
               >Annexures</router-link
             >
-          </li>
+          </li> -->
           <li>
             <a href="/#policies" class="link" @click="toggleMobileNav"
               >Policies/Rules</a

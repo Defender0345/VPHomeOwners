@@ -2,8 +2,8 @@ import { createRouter, createWebHistory } from 'vue-router';
 import HomeView from '../views/HomeView.vue';
 import AboutView from '../views/AboutView.vue';
 import ConstitutionView from '../views/ConstitutionView.vue';
-import AnnexuresView from '../views/AnnexuresView.vue';
-import CoCTRental from '../views/CoCTRental.vue';
+// import AnnexuresView from '../views/AnnexuresView.vue';
+import CoCTRentalView from '../views/CoCTRentalView.vue';
 import NewsView from '../views/NewsView.vue';
 import PoliciesView from '../views/PoliciesView.vue';
 
@@ -25,15 +25,15 @@ const router = createRouter({
       name: 'constitution',
       component: ConstitutionView,
     },
-    {
-      path: '/annexures',
-      name: 'annexures',
-      component: AnnexuresView,
-    },
+    // {
+    //   path: '/annexures',
+    //   name: 'annexures',
+    //   component: AnnexuresView,
+    // },
     {
       path: '/coctrental',
       name: 'coctrental',
-      component: CoCTRental,
+      component: CoCTRentalView,
     },
     {
       path: '/news',

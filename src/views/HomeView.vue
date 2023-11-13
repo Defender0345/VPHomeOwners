@@ -43,38 +43,38 @@
     <section id="policies" class="policies">
       <h1><u>Our Policies/Rules</u></h1>
       <div class="wrapper">
-        <a href="/policies/1">No 1: Bedryfs model - Operating model v1.1</a>
-        <a href="/policies/2">No 2: Conduct Rules - Gedrags Reels v2.0</a>
-        <a href="/policies/3">No 3: Verkorte Reëls - Abbreviated Rules v2.0</a>
-        <a href="/policies/4">No 4: Infrastruktuur - Infrastructure v1.0</a>
-        <a href="/policies/5">No 5: Risiko Bestuur - Risk Management v1.0</a>
-        <a href="/policies/6">No 6: Elektries - Electrical v1.0</a>
-        <a href="/policies/7">No 7: Skadu afdak - Shade port v1.0</a>
-        <a href="/policies/8">No 8: Heinings - Fences v1.0</a>
+        <a href="/policies/1">Bedryfs model - Operating model (1.1)</a>
+        <a href="/policies/2">Conduct Rules - Gedrags Reels (2.0)</a>
+        <a href="/policies/3">Verkorte Reëls - Abbreviated Rules (2022)</a>
+        <a href="/policies/4">Infrastruktuur - Infrastructure (4.0)</a>
+        <a href="/policies/5">Risiko Bestuur - Risk Management (5.0)</a>
+        <a href="/policies/6">Elektries - Electrical (6.0)</a>
+        <a href="/policies/7">Skadu afdak - Shade port (7.0)</a>
+        <a href="/policies/8">Heinings - Fences (8.0)</a>
         <a href="/policies/9"
-          >No 9: Wendy of Leunhuis - Wendy house or Lean-to v1.0</a
+          >Wendy of Leunhuis - Wendy house or Lean-to (9.0)</a
         >
         <a href="/policies/10"
-          >No 10: Bou Veranderings - Build Alterations (Outstanding)
+          >Bou Veranderings - Build Alterations (Outstanding)
           <br />
           (Sien asb "Gedrags Reels" / Please see "Conduct Rules")</a
         >
-        <a href="/policies/11">No 11: Huur van saal - Hiring of hall v1.1</a>
+        <a href="/policies/11">Huur van saal - Hiring of hall (11.1)</a>
         <a href="/policies/12"
-          >No 12: Parkeer of stoor van karavane, groot sleepwaens en bote -
-          Parking or storage of caravans, large trailers and boats v1.1</a
+          >Parkeer of stoor van karavane, groot sleepwaens en bote - Parking or
+          storage of caravans, large trailers and boats (12.1)</a
         >
         <a href="/policies/13"
-          >No 13: Wellpoint or Borehole - Wellpoint of Boorgat v1.0</a
+          >Wellpoint or Borehole - Wellpoint of Boorgat (13.0)</a
         >
-        <a href="/policies/14">No 14: Toegangs beheer - Access control v1.1</a>
-        <a href="/policies/15">No 15: Boetes - Fines v1.1</a>
+        <a href="/policies/14">Toegangs beheer - Access control (14.1)</a>
+        <a href="/policies/15">Boetes - Fines (15.1)</a>
         <a href="/policies/16"
-          >No 16: Bestuurs portefeuljes - Management portfolios (Outstanding)</a
+          >Bestuurs portefeuljes - Management portfolios (Outstanding)</a
         >
         <a href="/policies/17"
-          >No 17: Verhuring en Verkoop van Eenhede - Leasing and Selling of
-          Units v1.1</a
+          >Verhuring en Verkoop van Eenhede - Leasing and Selling of Units
+          (17.1)</a
         >
       </div>
     </section>
