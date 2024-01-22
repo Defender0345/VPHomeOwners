@@ -101,7 +101,7 @@ export default {
         //   break;
         case '17':
           that.pdf =
-            '../pdf/Beleid/Beleid17.1VerhuringenverkoopvanEenhede1.pdf';
+            '../pdf/Beleid/Beleid17.1VerhuringenverkoopvanEenhede2.pdf';
           break;
       }
     },
