@@ -10,208 +10,222 @@
         Your web browser doesn't have a PDF plugin. Instead you can click here
         to download
         <a :href="pdf">
-          News Letter 3 Oct 2023 ({{ lang === 'ENG' ? 'AFR' : 'ENG' }}) </a
+          News Letter 1 Feb 2024 ({{ lang === 'ENG' ? 'AFR' : 'ENG' }}) </a
         >as a PDF file.
       </p>
     </div>
   </section>
   <section class="pdf-history" style="text-align: center">
-    <h2>AJV/AGM</h2>
-    <p>
-      Download
-      <a href="../pdf/NuusBrief/VP2023Jaarverslag.pdf"
-        >VP 2023 Jaarverslag (AFR)</a
-      >
-      as a PDF file.
-    </p>
-    <p>
-      Download
-      <a href="../pdf/NuusBrief/VP2023AnnualReport.pdf"
-        >VP 2023 Annual Report (ENG)</a
-      >
-      as a PDF file.
-    </p>
-    <p>
-      Download
-      <a href="../pdf/NuusBrief/VPAJV2022NOTULE.pdf"
-        >VP AJV 2022 NOTULE (AFR)</a
-      >
-      as a PDF file.
-    </p>
-    <p>
-      Download
-      <a href="../pdf/NuusBrief/VPAJV2021NOTULE.pdf"
-        >VP AJV 2021 NOTULE (AFR)</a
-      >
-      as a PDF file.
-    </p>
-    <p>
-      Download
-      <a href="../pdf/NuusBrief/VPAJV2020NOTULE.pdf"
-        >VP AJV 2020 NOTULE (AFR)</a
-      >
-      as a PDF file.
-    </p>
-    <h2>2024</h2>
-    <p>
-      Download
-      <a href="../pdf/NuusBrief/Nuusbrief1VPHOAFeb2024AFR.pdf"
-        >Nuus Brief 1 (AFR) - Feb 2024</a
-      >
-      as a PDF file.
-    </p>
-    <p>
-      Download
-      <a href="../pdf/NuusBrief/Newsletter1VPHEVFeb2024ENG.pdf"
-        >News Letter 1 (ENG) - Feb 2024</a
-      >
-      as a PDF file.
-    </p>
-    <h2>2023</h2>
-    <p>
-      Download
-      <a href="../pdf/NuusBrief/Nuusbrief3VPHEVOkt2023AFR.pdf"
-        >Nuus Brief 3 (AFR) - OCT 2023</a
-      >
-      as a PDF file.
-    </p>
-    <p>
-      Download
-      <a href="../pdf/NuusBrief/Newsletter3VPHOAOct2023ENG.pdf"
-        >News Letter 3 (ENG) - OCT 2023</a
-      >
-      as a PDF file.
-    </p>
-    <p>
-      Download
-      <a href="../pdf/NuusBrief/Nuusbrief2VPHEVJul2023AFR.pdf"
-        >Nuus Brief 2 (AFR) - Jul 2023</a
-      >
-      as a PDF file.
-    </p>
-    <p>
-      Download
-      <a href="../pdf/NuusBrief/Newsletter2VPHOAJul2023ENG.pdf"
-        >News Letter 2 (ENG) - Jul 2023</a
-      >
-      as a PDF file.
-    </p>
-    <p>
-      Download
-      <a href="../pdf/NuusBrief/Nuusbrief1VPHEVFeb2023.pdf"
-        >Nuus Brief 1 (AFR) - Feb 2023</a
-      >
-      as a PDF file.
-    </p>
-    <p>
-      Download
-      <a href="../pdf/NuusBrief/Newsletter1VPHOAFeb2023.pdf"
-        >News Letter 1 (ENG) - Feb 2023</a
-      >
-      as a PDF file.
-    </p>
-    <h2>2022</h2>
-    <p>
-      Download
-      <a href="../pdf/NuusBrief/Nuusbrief3VPHEVOkt2022AFR.pdf"
-        >Nuus Brief 3 (AFR) - Oct 2022</a
-      >
-      as a PDF file.
-    </p>
-    <p>
-      Download
-      <a href="../pdf/NuusBrief/Newsletter3VPHOAOct2022ENG.pdf"
-        >News Letter 3 (ENG) - Oct 2022</a
-      >
-      as a PDF file.
-    </p>
-    <p>
-      Download
-      <a href="../pdf/NuusBrief/Nuusbrief2VPHEVJul2022AFR.pdf"
-        >Nuus Brief 2 (AFR) - Jul 2022</a
-      >
-      as a PDF file.
-    </p>
-    <p>
-      Download
-      <a href="../pdf/NuusBrief/Nuusbrief2JulVPHEV2022ENG.pdf"
-        >News Letter 2 (ENG) - Jul 2022</a
-      >
-      as a PDF file.
-    </p>
-    <!--  -->
-    <p>
-      Download
-      <a href="../pdf/NuusBrief/OpeBriefVPInwonersMaart2022AFR.pdf"
-        >Ope Brief (AFR) - Mar 2022</a
-      >
-      as a PDF file.
-    </p>
-    <p>
-      Download
-      <a href="../pdf/NuusBrief/OpeBriefVPInwonersMaart2022ENG.pdf"
-        >General Letter (ENG) - Mar 2022</a
-      >
-      as a PDF file.
-    </p>
-    <!--  -->
-    <p>
-      Download
-      <a href="../pdf/NuusBrief/Nuusbrief1VPHEVFeb2022.pdf"
-        >Nuus Brief 1 (AFR) - Feb 2022</a
-      >
-      as a PDF file.
-    </p>
-    <p>
-      Download
-      <a href="../pdf/NuusBrief/Newsletter1VPHEVFeb2022.pdf"
-        >News Letter 1 (ENG) - Feb 2022</a
-      >
-      as a PDF file.
-    </p>
-    <h2>2021</h2>
-    <p>
-      Download
-      <a href="../pdf/NuusBrief/Newsletter4SeptVPHOA2021.pdf"
-        >News Letter 4 (ENG) - Sept 2021</a
-      >
-      as a PDF file.
-    </p>
-    <p>
-      Download
-      <a href="../pdf/NuusBrief/Nuusbrief4SeptVPHEV2021.pdf"
-        >Nuus Brief 4 (AFR) - Sept 2021</a
-      >
-      as a PDF file.
-    </p>
-    <p>
-      Download
-      <a href="../pdf/NuusBrief/Newsletter3VPHOA2021.pdf"
-        >News Letter 3 (ENG) - May 2021</a
-      >
-      as a PDF file.
-    </p>
-    <p>
-      Download
-      <a href="../pdf/NuusBrief/Nuusbrief3MeiVPHEV2021.pdf"
-        >Nuus Brief 3 (AFR) - Mei 2021</a
-      >
-      as a PDF file.
-    </p>
-    <p>
-      Download
-      <a href="../pdf/NuusBrief/News Letter2VPHOA2021.pdf"
-        >News Letter 2 (ENG) - Feb 2021</a
-      >
-      as a PDF file.
-    </p>
-    <p>
-      Download
-      <a href="../pdf/NuusBrief/Nuusbrief2VPHEV2021.pdf"
-        >Nuus Brief 2 (AFR) - Feb 2021</a
-      >
-      as a PDF file.
-    </p>
+    <!-- AJV/AGM -->
+    <div>
+      <h2>AJV/AGM</h2>
+      <p>
+        Download
+        <a href="../pdf/NuusBrief/VP2023Jaarverslag.pdf"
+          >VP 2023 Jaarverslag (AFR)</a
+        >
+        as a PDF file.
+      </p>
+      <p>
+        Download
+        <a href="../pdf/NuusBrief/VP2023AnnualReport.pdf"
+          >VP 2023 Annual Report (ENG)</a
+        >
+        as a PDF file.
+      </p>
+      <p>
+        Download
+        <a href="../pdf/NuusBrief/VPAJV2022NOTULE.pdf"
+          >VP AJV 2022 NOTULE (AFR)</a
+        >
+        as a PDF file.
+      </p>
+      <p>
+        Download
+        <a href="../pdf/NuusBrief/VPAJV2021NOTULE.pdf"
+          >VP AJV 2021 NOTULE (AFR)</a
+        >
+        as a PDF file.
+      </p>
+      <p>
+        Download
+        <a href="../pdf/NuusBrief/VPAJV2020NOTULE.pdf"
+          >VP AJV 2020 NOTULE (AFR)</a
+        >
+        as a PDF file.
+      </p>
+    </div>
+    <!-- 2024 -->
+    <div>
+      <h2>2024</h2>
+      <p>
+        Download
+        <a href="../pdf/NuusBrief/Nuusbrief1VPHOAFeb2024AFR.pdf"
+          >Nuus Brief 1 (AFR) - Feb 2024</a
+        >
+        as a PDF file.
+      </p>
+      <p>
+        Download
+        <a href="../pdf/NuusBrief/Newsletter1VPHEVFeb2024ENG.pdf"
+          >News Letter 1 (ENG) - Feb 2024</a
+        >
+        as a PDF file.
+      </p>
+    </div>
+    <!-- 2023 -->
+    <div>
+      <h2>2023</h2>
+      <p>
+        Download
+        <a href="../pdf/NuusBrief/Nuusbrief3VPHEVOkt2023AFR.pdf"
+          >Nuus Brief 3 (AFR) - OCT 2023</a
+        >
+        as a PDF file.
+      </p>
+      <p>
+        Download
+        <a href="../pdf/NuusBrief/Newsletter3VPHOAOct2023ENG.pdf"
+          >News Letter 3 (ENG) - OCT 2023</a
+        >
+        as a PDF file.
+      </p>
+      <p>
+        Download
+        <a href="../pdf/NuusBrief/Nuusbrief2VPHEVJul2023AFR.pdf"
+          >Nuus Brief 2 (AFR) - Jul 2023</a
+        >
+        as a PDF file.
+      </p>
+      <p>
+        Download
+        <a href="../pdf/NuusBrief/Newsletter2VPHOAJul2023ENG.pdf"
+          >News Letter 2 (ENG) - Jul 2023</a
+        >
+        as a PDF file.
+      </p>
+      <p>
+        Download
+        <a href="../pdf/NuusBrief/Nuusbrief1VPHEVFeb2023.pdf"
+          >Nuus Brief 1 (AFR) - Feb 2023</a
+        >
+        as a PDF file.
+      </p>
+      <p>
+        Download
+        <a href="../pdf/NuusBrief/Newsletter1VPHOAFeb2023.pdf"
+          >News Letter 1 (ENG) - Feb 2023</a
+        >
+        as a PDF file.
+      </p>
+    </div>
+    <!-- 2022 -->
+    <div>
+      <h2>2022</h2>
+      <p>
+        Download
+        <a href="../pdf/NuusBrief/Nuusbrief3VPHEVOkt2022AFR.pdf"
+          >Nuus Brief 3 (AFR) - Oct 2022</a
+        >
+        as a PDF file.
+      </p>
+      <p>
+        Download
+        <a href="../pdf/NuusBrief/Newsletter3VPHOAOct2022ENG.pdf"
+          >News Letter 3 (ENG) - Oct 2022</a
+        >
+        as a PDF file.
+      </p>
+      <p>
+        Download
+        <a href="../pdf/NuusBrief/Nuusbrief2VPHEVJul2022AFR.pdf"
+          >Nuus Brief 2 (AFR) - Jul 2022</a
+        >
+        as a PDF file.
+      </p>
+      <p>
+        Download
+        <a href="../pdf/NuusBrief/Nuusbrief2JulVPHEV2022ENG.pdf"
+          >News Letter 2 (ENG) - Jul 2022</a
+        >
+        as a PDF file.
+      </p>
+      <p>
+        Download
+        <a href="../pdf/NuusBrief/OpeBriefVPInwonersMaart2022AFR.pdf"
+          >Ope Brief (AFR) - Mar 2022</a
+        >
+        as a PDF file.
+      </p>
+      <p>
+        Download
+        <a href="../pdf/NuusBrief/OpeBriefVPInwonersMaart2022ENG.pdf"
+          >General Letter (ENG) - Mar 2022</a
+        >
+        as a PDF file.
+      </p>
+      <!--  -->
+      <p>
+        Download
+        <a href="../pdf/NuusBrief/Nuusbrief1VPHEVFeb2022.pdf"
+          >Nuus Brief 1 (AFR) - Feb 2022</a
+        >
+        as a PDF file.
+      </p>
+      <p>
+        Download
+        <a href="../pdf/NuusBrief/Newsletter1VPHEVFeb2022.pdf"
+          >News Letter 1 (ENG) - Feb 2022</a
+        >
+        as a PDF file.
+      </p>
+    </div>
+    <!-- 2021 -->
+    <div>
+      <h2>2021</h2>
+      <p>
+        Download
+        <a href="../pdf/NuusBrief/Newsletter4SeptVPHOA2021.pdf"
+          >News Letter 4 (ENG) - Sept 2021</a
+        >
+        as a PDF file.
+      </p>
+      <p>
+        Download
+        <a href="../pdf/NuusBrief/Nuusbrief4SeptVPHEV2021.pdf"
+          >Nuus Brief 4 (AFR) - Sept 2021</a
+        >
+        as a PDF file.
+      </p>
+      <p>
+        Download
+        <a href="../pdf/NuusBrief/Newsletter3VPHOA2021.pdf"
+          >News Letter 3 (ENG) - May 2021</a
+        >
+        as a PDF file.
+      </p>
+      <p>
+        Download
+        <a href="../pdf/NuusBrief/Nuusbrief3MeiVPHEV2021.pdf"
+          >Nuus Brief 3 (AFR) - Mei 2021</a
+        >
+        as a PDF file.
+      </p>
+      <p>
+        Download
+        <a href="../pdf/NuusBrief/News Letter2VPHOA2021.pdf"
+          >News Letter 2 (ENG) - Feb 2021</a
+        >
+        as a PDF file.
+      </p>
+      <p>
+        Download
+        <a href="../pdf/NuusBrief/Nuusbrief2VPHEV2021.pdf"
+          >Nuus Brief 2 (AFR) - Feb 2021</a
+        >
+        as a PDF file.
+      </p>
+    </div>
   </section>
 </template>
 <!-- eslint-disable prettier/prettier -->
