@@ -52,7 +52,36 @@
       >
       as a PDF file.
     </p>
+    <h2>2024</h2>
+    <p>
+      Download
+      <a href="../pdf/NuusBrief/Nuusbrief1VPHOAFeb2024AFR.pdf"
+        >Nuus Brief 1 (AFR) - Feb 2024</a
+      >
+      as a PDF file.
+    </p>
+    <p>
+      Download
+      <a href="../pdf/NuusBrief/Newsletter1VPHEVFeb2024ENG.pdf"
+        >News Letter 1 (ENG) - Feb 2024</a
+      >
+      as a PDF file.
+    </p>
     <h2>2023</h2>
+    <p>
+      Download
+      <a href="../pdf/NuusBrief/Nuusbrief3VPHEVOkt2023AFR.pdf"
+        >Nuus Brief 3 (AFR) - OCT 2023</a
+      >
+      as a PDF file.
+    </p>
+    <p>
+      Download
+      <a href="../pdf/NuusBrief/Newsletter3VPHOAOct2023ENG.pdf"
+        >News Letter 3 (ENG) - OCT 2023</a
+      >
+      as a PDF file.
+    </p>
     <p>
       Download
       <a href="../pdf/NuusBrief/Nuusbrief2VPHEVJul2023AFR.pdf"
@@ -193,19 +222,19 @@ export default {
   data() {
     return {
       lang: 'AFR',
-      pdf: '../pdf/NuusBrief/Newsletter3VPHOAOct2023ENG.pdf',
+      pdf: '../pdf/NuusBrief/Newsletter1VPHEVFeb2024ENG.pdf',
     };
   },
   methods: {
     switchPdf() {
       var that = this;
       switch (this.pdf) {
-        case '../pdf/NuusBrief/Newsletter3VPHOAOct2023ENG.pdf':
-          that.pdf = '../pdf/NuusBrief/Nuusbrief3VPHEVOkt2023AFR.pdf';
+        case '../pdf/NuusBrief/Newsletter1VPHEVFeb2024ENG.pdf':
+          that.pdf = '../pdf/NuusBrief/Nuusbrief1VPHOAFeb2024AFR.pdf';
           that.lang = 'ENG';
           break;
-        case '../pdf/NuusBrief/Nuusbrief3VPHEVOkt2023AFR.pdf':
-          that.pdf = '../pdf/NuusBrief/Newsletter3VPHOAOct2023ENG.pdf';
+        case '../pdf/NuusBrief/Nuusbrief1VPHOAFeb2024AFR.pdf':
+          that.pdf = '../pdf/NuusBrief/Newsletter1VPHEVFeb2024ENG.pdf';
           that.lang = 'AFR';
           break;
       }

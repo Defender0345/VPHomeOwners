@@ -74,7 +74,7 @@
         >
         <a href="/policies/17"
           >Verhuring en Verkoop van Eenhede - Leasing and Selling of Units
-          (17.1)</a
+          (17.2)</a
         >
       </div>
     </section>
