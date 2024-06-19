@@ -68,7 +68,7 @@
           >Wellpoint or Borehole - Wellpoint of Boorgat (13.0)</a
         >
         <a href="/policies/14">Toegangs beheer - Access control (14.1)</a>
-        <a href="/policies/15">Boetes - Fines (15.1)</a>
+        <a href="/policies/15">Boetes - Fines (15.2)</a>
         <a href="/policies/16"
           >Bestuurs portefeuljes - Management portfolios (Outstanding)</a
         >

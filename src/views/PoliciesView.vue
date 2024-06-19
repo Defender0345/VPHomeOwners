@@ -94,7 +94,7 @@ export default {
           that.pdf = '../pdf/Beleid/Beleid14ToegangsBeheerAccessControle1.pdf';
           break;
         case '15':
-          that.pdf = '../pdf/Beleid/Beleid15Boetes-Fines1.pdf';
+          that.pdf = '../pdf/Beleid/Beleid15.2Boetes-Fines.pdf';
           break;
         // case '16':
         //   that.pdf = '../pdf/Beleid/#.pdf';
