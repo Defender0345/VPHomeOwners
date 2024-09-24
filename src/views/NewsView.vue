@@ -10,7 +10,7 @@
         Your web browser doesn't have a PDF plugin. Instead you can click here
         to download
         <a :href="pdf">
-          News Letter 1 Feb 2024 ({{ lang === 'ENG' ? 'AFR' : 'ENG' }}) </a
+          News Letter 2 Jul 2024 ({{ lang === 'ENG' ? 'AFR' : 'ENG' }}) </a
         >as a PDF file.
       </p>
     </div>
@@ -19,6 +19,13 @@
     <!-- AJV/AGM -->
     <div>
       <h2>AJV/AGM</h2>
+      <p>
+        Download
+        <a href="../pdf/NuusBrief/VPAJV2023NOTULE.pdf"
+          >VP AJV 2023 NOTULE (ENG)</a
+        >
+        as a PDF file.
+      </p>
       <p>
         Download
         <a href="../pdf/NuusBrief/VP2023Jaarverslag.pdf"
@@ -58,6 +65,20 @@
     <!-- 2024 -->
     <div>
       <h2>2024</h2>
+      <p>
+        Download
+        <a href="../pdf/NuusBrief/Nuusbrief2VPHEVJul2024AFR.pdf"
+          >Nuus Brief 2 (AFR) - Jul 2024</a
+        >
+        as a PDF file.
+      </p>
+      <p>
+        Download
+        <a href="../pdf/NuusBrief/Newsletter2VPHEVJul2024ENG.pdf"
+          >News Letter 2 (ENG) - Jul 2024</a
+        >
+        as a PDF file.
+      </p>
       <p>
         Download
         <a href="../pdf/NuusBrief/Nuusbrief1VPHOAFeb2024AFR.pdf"
@@ -236,19 +257,19 @@ export default {
   data() {
     return {
       lang: 'AFR',
-      pdf: '../pdf/NuusBrief/Newsletter1VPHEVFeb2024ENG.pdf',
+      pdf: '../pdf/NuusBrief/Newsletter2VPHEVJul2024ENG.pdf',
     };
   },
   methods: {
     switchPdf() {
       var that = this;
       switch (this.pdf) {
-        case '../pdf/NuusBrief/Newsletter1VPHEVFeb2024ENG.pdf':
-          that.pdf = '../pdf/NuusBrief/Nuusbrief1VPHOAFeb2024AFR.pdf';
+        case '../pdf/NuusBrief/Newsletter2VPHEVJul2024ENG.pdf':
+          that.pdf = '../pdf/NuusBrief/Nuusbrief2VPHEVJul2024AFR.pdf';
           that.lang = 'ENG';
           break;
-        case '../pdf/NuusBrief/Nuusbrief1VPHOAFeb2024AFR.pdf':
-          that.pdf = '../pdf/NuusBrief/Newsletter1VPHEVFeb2024ENG.pdf';
+        case '../pdf/NuusBrief/Nuusbrief2VPHEVJul2024AFR.pdf':
+          that.pdf = '../pdf/NuusBrief/Newsletter2VPHEVJul2024ENG.pdf';
           that.lang = 'AFR';
           break;
       }
