@@ -16,7 +16,7 @@
     </div>
   </section>
   <section class="pdf-history" style="text-align: center">
-    <!-- Live -->
+    <!-- AJV -->
     <div>
       <h2>AJV/AGM</h2>
       <p>
@@ -62,7 +62,25 @@
         as a PDF file.
       </p>
     </div>
-    <!-- 2024 -->
+    <!-- 2025 -->
+     <div>
+      <h2>2025</h2>
+      <p>
+        Download
+        <a href="../pdf/NuusBrief/Nuusbrief1VPHEVFeb2025AFR.pdf"
+          >Nuus Brief 1 (AFR) - FEB 2025</a
+        >
+        as a PDF file.
+      </p>
+      <p>
+        Download
+        <a href="../pdf/NuusBrief/Newsletter1VPHEWFeb2025ENG.pdf"
+          >News Letter 1 (ENG) - FEB 2025</a
+        >
+        as a PDF file.
+      </p>
+     </div>
+     <!-- 2024 -->
     <div>
       <h2>2024</h2>
       <p>
@@ -271,19 +289,19 @@ export default {
   data() {
     return {
       lang: 'AFR',
-      pdf: '../pdf/NuusBrief/Nuusbrief3VPHEVOkt2024ENG.pdf',
+      pdf: '../pdf/NuusBrief/Newsletter1VPHEWFeb2025ENG.pdf',
     };
   },
   methods: {
     switchPdf() {
       var that = this;
       switch (this.pdf) {
-        case '../pdf/NuusBrief/Nuusbrief3VPHEVOkt2024ENG.pdf':
-          that.pdf = '../pdf/NuusBrief/Nuusbrief3VPHEVOkt2024AFR.pdf';
+        case '../pdf/NuusBrief/Newsletter1VPHEWFeb2025ENG.pdf':
+          that.pdf = '../pdf/NuusBrief/Nuusbrief1VPHEVFeb2025AFR.pdf';
           that.lang = 'ENG';
           break;
-        case '../pdf/NuusBrief/Nuusbrief3VPHEVOkt2024AFR.pdf':
-          that.pdf = '../pdf/NuusBrief/Nuusbrief3VPHEVOkt2024ENG.pdf';
+        case '../pdf/NuusBrief/Nuusbrief1VPHEVFeb2025AFR.pdf':
+          that.pdf = '../pdf/NuusBrief/Newsletter1VPHEWFeb2025ENG.pdf';
           that.lang = 'AFR';
           break;
       }
