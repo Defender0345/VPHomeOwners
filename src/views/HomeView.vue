@@ -44,7 +44,7 @@
       <h1><u>Our Policies/Rules</u></h1>
       <div class="wrapper">
         <a href="/policies/1">Bedryfs model - Operating model (1.1)</a>
-        <a href="/policies/2">Conduct Rules - Gedrags Reels (2.0)</a>
+        <a href="/policies/2">Conduct Rules(CSOS Stamped) - Gedrags Reels(Sien ENG) (3.0)</a>
         <a href="/policies/3">Verkorte Reëls - Abbreviated Rules (2022)</a>
         <a href="/policies/4">Infrastruktuur - Infrastructure (4.0)</a>
         <a href="/policies/5">Risiko Bestuur - Risk Management (5.0)</a>
@@ -73,7 +73,7 @@
           >Bestuurs portefeuljes - Management portfolios (Outstanding)</a
         >
         <a href="/policies/17"
-          >Verhuring en Verkoop van Eenhede - Leasing and Selling of Units
+          >Verhuring en Verkoop van Eenhede - Leasing and Selling of Units + COCT Guidelines
           (17.2)</a
         >
       </div>

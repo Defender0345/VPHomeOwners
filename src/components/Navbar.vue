@@ -15,7 +15,7 @@
         </li>
         <li>
           <router-link class="link" to="/coctrental"
-            >CoCT Rental/Huur</router-link
+            >CoCT Lease/Huur</router-link
           >
         </li>
         <!-- <li>
@@ -58,7 +58,7 @@
           </li>
           <li>
             <router-link class="link" to="/coctrental" @click="toggleMobileNav"
-              >CoCT Rental/Huur</router-link
+              >CoCT Lease/Huur</router-link
             >
           </li>
           <!-- <li>

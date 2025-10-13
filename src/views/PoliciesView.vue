@@ -43,7 +43,7 @@ export default {
     return {
       pdf: null,
       lang: 'AFR',
-      pdf2: '../pdf/Beleid/Beleid2ConductRules2.pdf',
+      pdf2: '../pdf/Beleid/Beleid2ConductRules3(CSOS).pdf',
     };
   },
   methods: {
@@ -54,7 +54,7 @@ export default {
           that.pdf = '../pdf/Beleid/Beleid1BedryfsmodelOperatingModel1.pdf';
           break;
         case '2':
-          //  that.pdf = '../pdf/Beleid/Beleid2ConductRules2.pdf';
+          //  that.pdf = '../pdf/Beleid/Beleid2ConductRules3(CSOS).pdf';
           break;
         case '3':
           that.pdf = '../pdf/Beleid/Beleid3Reels-Rules1.pdf';
@@ -100,19 +100,19 @@ export default {
         //   that.pdf = '../pdf/Beleid/#.pdf';
         //   break;
         case '17':
-          that.pdf = '../pdf/Beleid/Beleid17.2VerhuringenverkoopvanEenhede.pdf';
+          that.pdf = '../pdf/Beleid/Beleid17.2LeasingAndSellingAndCOCT.pdf';
           break;
       }
     },
     switchPdf() {
       var that = this;
       switch (this.pdf2) {
-        case '../pdf/Beleid/Beleid2ConductRules2.pdf':
+        case '../pdf/Beleid/Beleid2ConductRules3(CSOS).pdf':
           that.pdf2 = '../pdf/Beleid/Beleid2Gedragsreels2.pdf';
           that.lang = 'ENG';
           break;
         case '../pdf/Beleid/Beleid2Gedragsreels2.pdf':
-          that.pdf2 = '../pdf/Beleid/Beleid2ConductRules2.pdf';
+          that.pdf2 = '../pdf/Beleid/Beleid2ConductRules3(CSOS).pdf';
           that.lang = 'AFR';
           break;
       }
