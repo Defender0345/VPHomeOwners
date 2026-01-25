@@ -11,7 +11,10 @@
         </p>
       </div>
       <!-- Specifically for Policy 2 having 2 documents -->
-      <div v-else-if="this.id == `2`" class="conductRules">
+       <div v-else-if="this.id == `2`" class="conductRules">
+        <h1>Only the english one is valid</h1>
+       </div>
+      <!-- <div v-else-if="this.id == `2`" class="conductRules">
         <button class="btn" @click="switchPdf">
           CLICK HERE FOR {{ lang }}
         </button>
@@ -27,7 +30,7 @@
             >as a PDF file.
           </p>
         </div>
-      </div>
+      </div> -->
       <div v-else class="construction">
         <h2>This Page is currently under development</h2>
       </div>
@@ -54,7 +57,7 @@ export default {
           that.pdf = '../pdf/Beleid/Beleid1BedryfsmodelOperatingModel1.pdf';
           break;
         case '2':
-          //  that.pdf = '../pdf/Beleid/Beleid2ConductRules3(CSOS).pdf';
+          that.pdf = '../pdf/Beleid/Beleid2ConductRules3(CSOS).pdf';
           break;
         case '3':
           that.pdf = '../pdf/Beleid/Beleid3Reels-Rules1.pdf';
@@ -104,19 +107,19 @@ export default {
           break;
       }
     },
-    switchPdf() {
-      var that = this;
-      switch (this.pdf2) {
-        case '../pdf/Beleid/Beleid2ConductRules3(CSOS).pdf':
-          that.pdf2 = '../pdf/Beleid/Beleid2Gedragsreels2.pdf';
-          that.lang = 'ENG';
-          break;
-        case '../pdf/Beleid/Beleid2Gedragsreels2.pdf':
-          that.pdf2 = '../pdf/Beleid/Beleid2ConductRules3(CSOS).pdf';
-          that.lang = 'AFR';
-          break;
-      }
-    },
+    // switchPdf() {
+    //   var that = this;
+    //   switch (this.pdf2) {
+    //     case '../pdf/Beleid/Beleid2ConductRules3(CSOS).pdf':
+    //       that.pdf2 = '../pdf/Beleid/Beleid2Gedragsreels2.pdf';
+    //       that.lang = 'ENG';
+    //       break;
+    //     case '../pdf/Beleid/Beleid2Gedragsreels2.pdf':
+    //       that.pdf2 = '../pdf/Beleid/Beleid2ConductRules3(CSOS).pdf';
+    //       that.lang = 'AFR';
+    //       break;
+    //   }
+    // },
   },
   mounted() {
     this.getData();
