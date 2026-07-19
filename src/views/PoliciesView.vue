@@ -103,7 +103,7 @@ export default {
         //   that.pdf = '../pdf/Beleid/#.pdf';
         //   break;
         case '17':
-          that.pdf = '../pdf/Beleid/Beleid17.3LeasingAndSellingAndCOCT.pdf';
+          that.pdf = '../pdf/Beleid/Beleid17.4LeasingAndSellingAndCOCT.pdf';
           break;
       }
     },

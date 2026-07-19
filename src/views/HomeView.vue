@@ -74,7 +74,7 @@
         >
         <a href="/policies/17"
           >Verhuring en Verkoop van Eenhede - Leasing and Selling of Units + COCT Guidelines
-          (17.3)</a
+          (17..4)</a
         >
       </div>
     </section>
